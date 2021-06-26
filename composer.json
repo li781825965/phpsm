@@ -1,5 +1,25 @@
-{
-    "require": {
-        "mdanter/ecc": "^0.5.2"
+{  
+  "name": "phpsm",
+  "description": "php sm",
+  "keywords": ["sm"],
+  "homepage": "https://github.com/lpilp/phpsm2sm3sm4",  
+  "license": "MIT",
+  "authors": [  
+    {
+      "name": "terry water", 
+      "email": "zqy234@126.com"
     }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "mdanter/ecc": "^0.5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sm\\": "src/"
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
 }
